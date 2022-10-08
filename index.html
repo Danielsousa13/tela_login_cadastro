@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Avaliação</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+
+      footer {
+        background-color: #f2f2f2;
+        padding: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"
+            ></a>
+            <img class="logo" src="./Imagens/Blade_Storm.webp" alt="" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#Home">Home</a></li>
+            <li><a href="#Contato">Contato</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="login.html"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron" id="Home">
+      <div class="container text-center titulo">
+        <h1>Seja Bem vindo</h1>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center subtitulo">
+      <h3>Nosso Principais Produtos</h3>
+      <br />
+      <div class="row">
+        <div class="col-sm-3 produto">
+          <p>Processador Ryzen 5</p>
+          <img
+            src="./Imagens/Processador.jpg"
+            class="img-responsive"
+            style="width: 100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3 produto">
+          <p>Headset Hyper X</p>
+          <img
+            src="./Imagens/Headset.jpg"
+            class="img-responsive"
+            style="width: 100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3 produto">
+          <p>Cadeira Gamer</p>
+          <img
+            src="./Imagens/Cadeira.jpg"
+            class="img-responsive"
+            style="width: 100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3 produto">
+          <p>Placa de Video</p>
+          <img
+            src="./Imagens/Placa de video.jpg"
+            class="img-responsive"
+            style="width: 100%"
+            alt="Image"
+          />
+        </div>
+          <div class="col-sm-3 produto">
+            <p>Monitor</p>
+            <img
+              src="./Imagens/Monitor.jpg"
+              class="img-responsive"
+              style="width: 100%"
+              alt="Image"
+            />
+          </div>
+            <div class="col-sm-3 produto">
+              <p>Teclado Hyper X</p>
+              <img
+                src="./Imagens/Teclado.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+              <div class="col-sm-3 produto">
+                <p>Mouse G403</p>
+                <img
+                  src="./Imagens/Mouse.jpg"
+                  class="img-responsive"
+                  style="width: 100%"
+                  alt="Image"
+                />
+              </div>
+                <div class="col-sm-3 produto">
+                  <p>iPhone 12</p>
+                  <img
+                    src="./Imagens/iPhone 12.jpg"
+                    class="img-responsive"
+                    style="width: 100%"
+                    alt="Image"
+                  />
+                </div>
+      </div>
+    </div>
+    <br />
+
+
+    <footer class="container-fluid text-center" id="Contato">
+      <div class="formulario">
+
+        <form action="">
+            <div class="campo">
+                <h1 id="titulo">Fale Conosco</h1>
+                <p id="subtitulo">Complete com suas informações</p>
+            </div>
+          
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Digite Seu Nome</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Digite Seu E-mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Qual Seu Número de Telefone?</label>
+              <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
+            
+              
+            </div>
+    
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Deixe Seu Recado:</strong></label>
+                <textarea name="experiencia" id="experiencia" rows="8" style="width:500px"></textarea>
+            </div>
+    
+            <div class="btn"> 
+                <button class="botao" type="submit"> Enviar Recado </button>
+            </div>
+    
+            
+        </form>
+    </div>
+    </footer>
+  </body>
+</html>

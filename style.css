@@ -1,0 +1,93 @@
+.logo {
+  height: 50px;
+}
+
+.formulario {
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  color: black;
+}
+
+#titulo {
+  text-align: center;
+  font-size: 40px;
+}
+
+#subtitulo {
+  text-align: center;
+  font-size: 25px;
+}
+
+.campo {
+  margin-bottom: 10px;
+}
+
+.campo label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.grupo {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+#email {
+  width: 450px;
+}
+
+#nome {
+  width: 200px;
+}
+
+#sobrenome {
+  width: 100px;
+  padding-right: 180px;
+  align-items: center;
+}
+
+.botao {
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #101010;
+  color: aliceblue;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.grupo label {
+  padding-left: 6px;
+}
+
+.produto p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  align-self: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.titulo h1 {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+}
+
+.subtitulo h3 {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+}
